@@ -15,7 +15,7 @@ while True:
     # Ask the user to choose the shape.
     choice = int(input("Which shape: "))
 
-    # Calculate and display the area of the rectangle.
+    # Calculate and display the area of the triangle.
     if choice == 1:
         base = int(input("Base: "))
         height = int(input("Height: "))
@@ -27,4 +27,12 @@ while True:
           base = int(input("Base: ")
           height = int(input("Height: "))
           area = base * height
-          print(f"The area of the circle is {area}\n")
+          print(f"The area of the rectangle is {area}\n")
+
+    # Calculate and display the area of the square.
+    elif choice == 3:
+            side = int(input("Side: "))
+            area = side ** 2
+            print(f"The area of the square is {area}\n")
+            
+
