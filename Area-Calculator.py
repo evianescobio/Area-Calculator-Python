@@ -34,5 +34,14 @@ while True:
             side = int(input("Side: "))
             area = side ** 2
             print(f"The area of the square is {area}\n")
+
+    # Calculate and display the area of the circle.
+    elif choice == 4:
+            radius = int(input("Radius: ")
+            area = math.pi * (radius ** 2)
+            print(f"The area of the circle is {area}\n)
+    
             
+            
+
 
