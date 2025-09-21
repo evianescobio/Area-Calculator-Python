@@ -39,9 +39,15 @@ while True:
     elif choice == 4:
             radius = int(input("Radius: ")
             area = math.pi * (radius ** 2)
-            print(f"The area of the circle is {area}\n)
+            print(f"The area of the circle is {area}\n")
+
+    # Terminate the program if choice is 5.
+    elif choice == 5:
+        print("Goodbye!")
+        break
     
             
             
+
 
 
