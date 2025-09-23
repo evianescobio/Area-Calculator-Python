@@ -7,4 +7,4 @@ A simple Python program that calculates the area of basic shapes.
 - [x] Menu with shape options (Triangle, Rectangle, Square, Circle, Quit)
 - [x] Input handling for user selection
 - [x] Functions to calculate areas of each shape
-- [ ] Error handling for invalid inputs
+- [x] Error handling for invalid inputs
